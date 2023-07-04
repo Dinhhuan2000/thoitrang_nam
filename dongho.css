@@ -1,0 +1,486 @@
+.webtong {
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(135, 133, 133);
+    width: 100%;
+}
+
+#logo {
+    width: 200px;
+    height: 50px;
+    margin: 15px 0;
+}
+
+.Menu {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    position: relative;
+    float: left;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 35px 20px;
+}
+
+.item a:hover {
+    text-decoration: underline;
+}
+
+.item1 {
+    display: block;
+    list-style: none;
+    position: absolute;
+    background-color: rgb(70, 65, 61);
+    padding: 20px 0px;
+    margin-top: 8px;
+    width: 200px;
+    height: 170px;
+    display: none;
+    z-index: 2;
+}
+
+.item1 a {
+    color: white;
+    text-align: left;
+    padding: 10px 10px;
+    left: 0;
+}
+
+.item1 a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px #ea6b6b;
+}
+
+.item:hover .item1 {
+    display: block;
+}
+
+.item2 {
+    display: block;
+    list-style: none;
+    position: absolute;
+    display: none;
+    background-color: #090929;
+    padding: 20px 0px;
+    margin-top: 8px;
+    width: 300px;
+    height: 146px;
+    z-index: 2;
+}
+
+.item2 a {
+    text-align: left;
+    text-transform: none;
+    font-size: large;
+    padding: 20px 10px;
+    line-height: 15px;
+}
+
+.item2 a:hover {
+    text-decoration: none;
+    background-color: dimgrey;
+}
+
+.item:hover .item2 {
+    display: block;
+}
+
+#icon {
+    padding: 35px 0;
+}
+
+.Text {
+    border-radius: 25px;
+    height: 25px;
+}
+
+#icon a {
+    color: black;
+}
+
+.item_con {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.item_con a {
+    color: rgb(21, 19, 19);
+    text-decoration: none;
+    border-right: 1px solid rgb(135, 133, 133);
+    padding: 0px 10px;
+}
+
+.seasion {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.anh_p1 {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.anh_p2 {
+    width: 600px;
+    max-height: 900px;
+    display: block;
+}
+
+.Menu_anh {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+.anh {
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+    padding: 0 15px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.anh:hover {
+    transform: scale(1.3);
+}
+
+.Thongtin {
+    width: 550px;
+    padding-left: 30px;
+}
+
+.Ten {
+    margin-top: -20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.TT {
+    margin-top: -10px;
+    font-size: 15px;
+}
+
+.pro {
+    padding-right: 15px;
+}
+
+.head {
+    margin: 0;
+    padding: 0;
+}
+
+.Size {
+    display: flex;
+    min-width: 250px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.mau {
+    flex: 1;
+    padding-left: 50px;
+}
+
+.hood {
+    text-align: center;
+    padding: 10px 15px;
+    border-top: 1px solid rgb(252, 252, 251);
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    border-color: red;
+    border-radius: 6px;
+    transition: background-color 0.5s ease;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.click {
+    width: 400px;
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+    transition: color 1.0s ease;
+}
+
+.click:hover {
+    color: red;
+}
+
+.share {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+.icon_share {
+    padding: 0 10px;
+}
+
+.diachi {
+    width: 400px;
+    padding-left: 80px;
+}
+
+#T_t {
+    text-align: center;
+    font-size: 25px;
+    background-color: #090929;
+    padding: 0.7rem 0.5rem;
+    width: 385px;
+    border-radius: 5px;
+}
+
+.text_f {
+    color: white;
+}
+
+.dia_chi {
+    padding: 8px 10px;
+}
+
+.form_TT {
+    width: 380px;
+    height: 30px;
+    text-align: center;
+}
+
+.box {
+    max-height: 200px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: bold;
+    border-color: rgb(145, 147, 147);
+    position: relative;
+    overflow-x: hidden;
+    padding: 0 0 15px;
+    text-align: left;
+    overflow-y: scroll;
+    padding-top: 20px;
+}
+
+.box_1 {
+    float: left;
+    width: 100%;
+    margin: 0 0 15px;
+}
+
+.anh_dc {
+    width: 20px;
+    margin: 0 10px 0 0;
+}
+
+.text_box {
+    color: rgb(23, 127, 10);
+}
+
+.chatluong {
+    padding-top: 6px;
+    height: 250px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    text-align: left;
+}
+
+.chatluong_sp {
+    padding: 7px 0;
+}
+
+.fead {
+    border-bottom: 2px solid rgb(10, 10, 10);
+    margin-bottom: 15px;
+}
+
+.VCB {
+    background: linear-gradient(rgb(47, 47, 47), rgb(0, 0, 0));
+    width: 170px;
+    border-top-right-radius: 6px;
+    color: rgb(202, 201, 201);
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    margin-top: 1px;
+}
+
+.dental {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.img {
+    display: block;
+    max-width: 200px;
+    max-height: 300px;
+    margin: auto;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+.Back {
+    display: flex;
+    justify-content: center;
+}
+
+.bt {
+    margin: 10px;
+    border-radius: 4px;
+    transition: background-color 0.5s ease;
+}
+
+.bt:hover {
+    background-color: red;
+}
+
+.team {
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+
+.anh_pk {
+    display: block;
+    width: 230px;
+    height: 200px;
+    margin: auto;
+}
+
+#the_end {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(184, 189, 189);
+}
+
+.p1 {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.part_1 {
+    padding: 75px 15px 52px 35px;
+    border-bottom: 0;
+    border-right: 1px solid rgb(107, 106, 106);
+    width: 300px;
+}
+
+.page {
+    margin-top: 12px;
+    margin-left: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MXH {
+    padding: 15px 10px;
+}
+
+.Ptvc {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+    color: rgb(62, 61, 61);
+}
+
+.icon_tt {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    width: 250px;
+    margin: 0;
+}
+
+.BA {
+    padding: 8px 6px;
+}
+
+.content {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+#ctt {
+    padding-left: 1px;
+}
+
+.vanchuyen {
+    list-style: none;
+    display: flex;
+    padding-left: 5px;
+}
+
+.Vc {
+    padding: 0 6px;
+}
+
+.png {
+    padding-left: 10px;
+}
+
+.pt2 {
+    margin-bottom: 15px;
+}
+
+.pt2 a {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+
+.pt2 a:hover {
+    color: red;
+}
+
+.submit {
+    display: flex;
+}
+
+.seam {
+    padding-top: 30px;
+}
+
+.part_2 {
+    background-color: rgb(117, 116, 116);
+}

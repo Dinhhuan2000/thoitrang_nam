@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    background-image: url(anhtonano.png);
+}
+
+.login {
+    width: 400px;
+    height: 420px;
+    background-color: rgb(244, 120, 120);
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.login h2 {
+    color: gray;
+    text-transform: uppercase;
+}
+
+.login input {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+
+.login button {
+    width: 225px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 171);
+    color: white;
+    margin-top: 30px;
+}
+
+p {
+    display: inline-block;
+}
+
+.login a {
+    float: right;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.login li {
+    float: left;
+    list-style: none;
+}

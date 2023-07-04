@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Cart</title>
+</head>
+
+<body>
+    <style>
+         :root {
+            --main-text-font: Arial, Helvetica, sans-serif;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .top {
+            padding: 10px 0;
+            align-items: center;
+            display: block;
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+            background-color: #ffff;
+            transition: all 0.3s ease;
+        }
+        
+        .top.active {
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .top-logo {
+            flex: 1;
+            width: 300px;
+            height: 80px;
+            margin-left: 10px;
+        }
+        
+        .top-logo img {
+            width: 99%;
+            height: 80%;
+            margin-top: 15px;
+        }
+        
+        .top-menu-items {
+            flex: 3;
+            margin-left: 30px;
+        }
+        
+        .top-menu-items>ul {
+            height: 100%;
+            display: flex;
+        }
+        
+        .top-menu-items>ul>li {
+            font-family: var(--main-text-font);
+            padding: 0 12px;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .top-menu-items ul li::before {
+            position: absolute;
+            content: "";
+            display: block;
+            width: 100%;
+            height: 50px;
+            bottom: -50%;
+        }
+        
+        .top-menu-item {
+            position: absolute;
+            width: 200px;
+            top: 100px;
+            display: none;
+            opacity: 0;
+            transition: all 0.5s ease;
+            background-color: #ffff;
+            height: auto !important;
+            padding: 6px;
+            border: 1px solid #dddddd;
+            margin-top: 60%;
+        }
+        
+        .top-menu-items ul li:hover .top-menu-item {
+            display: block;
+            top: 30px;
+            opacity: 1;
+        }
+        
+        .top-menu-item li {
+            line-height: 25px;
+            display: flex;
+            justify-content: left !important;
+        }
+        
+        .top-menu-item li a {
+            font-size: 12px;
+            text-align: left;
+            text-transform: capitalize;
+            color: #333;
+            font-family: var(--main-text-font);
+        }
+        /* top-menu-icons */
+        
+        .top-menu-icons {
+            flex: 1;
+        }
+        
+        .top-menu-icons ul {
+            display: flex;
+            height: 100%;
+        }
+        
+        .top-menu-icons ul li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 6px 12px;
+        }
+        
+        .top-menu-icons ul li {
+            position: relative;
+        }
+        
+        .top-menu-icons ul li::before {
+            content: "";
+            display: block;
+            position: absolute;
+            height: 15px;
+            width: 1px;
+            background-color: #333;
+            right: 0;
+        }
+        
+        .top-menu-icons ul li:last-child::before {
+            display: none;
+        }
+        
+        .top-menu-icons ul li:first-child input {
+            width: 150px;
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px solid #333;
+            padding: 0 0 4px 6px;
+        }
+        
+        .top-menu-icons ul li:first-child i {
+            position: absolute;
+            font-size: 12px;
+            right: 12px;
+        }
+        
+        .top-menu-icons ul i {
+            cursor: pointer;
+        }
+        
+        .anh img {
+            width: 800px;
+            margin-left: 330px;
+        }
+        
+        .text {
+            text-align: center;
+            font-size: 20px;
+            font-family: var(--main-text-font);
+            margin-top: -120px;
+        }
+    </style>
+    <section class="top">
+        <div class="container">
+            <div class="row">
+                <div class="top-logo">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class="top-menu-items">
+                    <ul>
+                        <li>Áo Nam
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="">Áo sơ mi dài tay</a>
+                                </li>
+                                <li>
+                                    <a href="">Áo sơ mi ngắn tay</a>
+                                </li>
+                                <li>
+                                    <a href="">Áo vest nam</a>
+                                </li>
+                                <li>
+                                    <a href="">Áo polo nam</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Quần
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="">Quần tây nam</a>
+                                </li>
+                                <li>
+                                    <a href="">Quần kaki nam</a>
+                                </li>
+                                <li>
+                                    <a href="">Quần ngố kaki</a>
+                                </li>
+                                <li>
+                                    <a href="">Quần đùi gió</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Phụ kiện
+                            <ul class="top-menu-item">
+                                <li>
+                                    <a href="">Giày nam</a>
+                                </li>
+                                <li>
+                                    <a href="">Dép nam</a>
+                                </li>
+                                <li>
+                                    <a href="">Ví nam</a>
+                                </li>
+                                <li>
+                                    <a href="">Dây lưng nam</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Đồng hồ</li>
+                        <li>Làm đẹp</li>
+                    </ul>
+                </div>
+                <div class="top-menu-icons row">
+                    <ul>
+                        <li>
+                            <input type="text" placeholder="Tìm kiếm">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-user"></i>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="anh">
+            <img src="cart.png" alt="">
+        </div>
+        <div class="text">
+            <span>Chưa có sản phẩm</span>
+        </div>
+    </section>
+</body>
+
+</html>

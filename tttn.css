@@ -1,0 +1,186 @@
+body {
+    background-color: white;
+    font-family: Arial;
+}
+
+.menu {
+    width: 1000px;
+    margin: auto;
+}
+
+.tieude {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.anh1 {
+    width: 1000px;
+    height: 400px;
+}
+
+.chu {
+    text-align: center;
+}
+
+.chu h3 {
+    text-transform: uppercase;
+}
+
+.menu2 {
+    width: 1000px;
+    margin: auto;
+}
+
+.anh2 {
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.chu2 {
+    text-align: center;
+}
+
+.chu2 h3 {
+    text-transform: uppercase
+}
+
+.menu3 {
+    width: 1000px;
+    margin: auto;
+}
+
+.anh3 {
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.chu3 {
+    text-align: center;
+}
+
+.chu3 h3 {
+    text-transform: uppercase
+}
+
+.menu4 {
+    width: 1000px;
+    margin: auto;
+}
+
+.anh4 {
+    width: 1000px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.chu4 {
+    text-align: center;
+}
+
+.chu4 h3 {
+    text-transform: uppercase
+}
+
+#the_end {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(184, 189, 189);
+    margin-top: 50px;
+}
+
+.p1 {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.part_1 {
+    padding: 75px 15px 52px 35px;
+    border-bottom: 0;
+    border-right: 1px solid rgb(107, 106, 106);
+    width: 300px;
+}
+
+.page {
+    margin-top: 12px;
+    margin-left: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MXH {
+    padding: 15px 10px;
+}
+
+.TT {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+    color: rgb(62, 61, 61);
+}
+
+.icon_tt {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    width: 250px;
+    margin: 0;
+}
+
+.BA {
+    padding: 8px 6px;
+}
+
+.content {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+#ctt {
+    padding-left: 1px;
+}
+
+.vanchuyen {
+    list-style: none;
+    display: flex;
+    padding-left: 5px;
+}
+
+.Vc {
+    padding: 0 6px;
+}
+
+.png {
+    padding-left: 10px;
+}
+
+.pt2 {
+    margin-bottom: 15px;
+}
+
+.pt2 a {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+
+.pt2 a:hover {
+    color: red;
+}
+
+.submit {
+    display: flex;
+}
+
+.seam {
+    padding-top: 30px;
+}
+
+.part_2 {
+    background-color: rgb(117, 116, 116);
+}

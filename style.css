@@ -1,0 +1,421 @@
+.webtong {
+    margin: auto;
+    overflow: auto !important;
+}
+
+.headder {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.anh {
+    width: 250px;
+    height: auto;
+    float: left;
+}
+
+.Menu_dau {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item1 {
+    float: right;
+}
+
+.item1 a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.item1 a:hover {
+    color: red;
+}
+
+.Menu_1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(116, 113, 113);
+    height: 83px;
+}
+
+.item2 {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.item3 {
+    position: relative;
+    float: left;
+}
+
+.item3 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 35px 20px;
+    position: relative;
+}
+
+.item3 a:hover {
+    text-decoration: underline;
+}
+
+.icon a {
+    position: relative;
+    margin-right: 15px;
+}
+
+.icon {
+    padding: 35px 0;
+}
+
+.item4 {
+    display: block;
+    list-style: none;
+    position: absolute;
+    display: none;
+    background-color: rgb(70, 65, 61);
+    padding: 20px 0px;
+    margin-top: -5px;
+    width: 200px;
+    height: 170px;
+}
+
+.item4 a {
+    text-align: left;
+    padding: 10px 10px;
+    left: 0;
+}
+
+.item4 a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px #ea6b6b;
+}
+
+.item3:hover .item4 {
+    display: block;
+}
+
+.item5 {
+    display: block;
+    list-style: none;
+    position: absolute;
+    display: none;
+    background-color: #090929;
+    padding: 20px 0px;
+    margin-top: -5px;
+    width: 300px;
+    height: 150px;
+}
+
+.item5 a {
+    text-align: left;
+    text-transform: none;
+    font-size: large;
+    padding: 20px 10px;
+    line-height: 15px;
+}
+
+.item5 a:hover {
+    text-decoration: none;
+    background-color: dimgrey;
+}
+
+.item3:hover .item5 {
+    display: block;
+}
+
+.Menu_2 {
+    display: flex;
+    float: left;
+    width: 100%;
+    margin-top: 113px;
+}
+
+.fone {
+    background-color: #090929;
+    text-transform: uppercase;
+    color: white;
+    width: 220px;
+    line-height: 50px;
+    margin-top: 0px;
+    padding: 0px 15px;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+.anhnen {
+    width: 950px;
+    margin-left: 0px;
+}
+
+.item6 {
+    list-style: none;
+    background-color: aliceblue;
+    border-left: solid 1px wheat;
+    height: 300px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    margin-top: -20px;
+}
+
+.item7 {
+    margin-bottom: -10px;
+}
+
+.item7 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+    font-weight: bold;
+}
+
+.item7 a:hover {
+    background-color: blueviolet;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.AP {
+    display: flex;
+    padding-top: 20px;
+}
+
+.text {
+    transform: translateY(-20px);
+    margin-left: 20px;
+    margin-right: 2px;
+}
+
+.icon1 {
+    width: 120px;
+    height: 80px;
+}
+
+#fat {
+    display: flex;
+    justify-content: space-around;
+    padding-top: -20px;
+}
+
+.foodder {
+    background-color: rgb(174, 169, 169);
+}
+
+.anhTK {
+    width: 390px;
+    height: 250px;
+    display: block;
+    padding: 15px 5px;
+    margin-top: -10px;
+}
+
+.FDI {
+    border-bottom: 2px solid rgb(10, 10, 10);
+    margin-bottom: 15px;
+}
+
+.dev {
+    background: linear-gradient(rgb(47, 47, 47), rgb(0, 0, 0));
+    width: 120px;
+    border-top-right-radius: 6px;
+    color: rgb(202, 201, 201);
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    margin-bottom: 0px;
+    margin-top: 1px;
+}
+
+.anh_sp {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.img {
+    overflow: hidden;
+    max-width: 350px;
+    max-height: 300px;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.1);
+}
+
+.anh_11 {
+    overflow: hidden;
+    max-width: 350px;
+    max-height: 260px;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.anh_11:hover {
+    transform: scale(1.1);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.bt {
+    margin: 10px;
+    border-radius: 4px;
+    transition: background-color 0.5s ease;
+}
+
+.bt:hover {
+    background-color: red;
+}
+
+.txt {
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 12px;
+}
+
+.anh_pk {
+    display: block;
+    width: 230px;
+    height: 220px;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.anh_pk:hover {
+    transform: scale(1.1);
+}
+
+#the_end {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(184, 189, 189);
+}
+
+.p1 {
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.part_1 {
+    padding: 75px 15px 52px 35px;
+    border-bottom: 0;
+    border-right: 1px solid rgb(107, 106, 106);
+    width: 300px;
+}
+
+.page {
+    margin-top: 12px;
+    margin-left: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MXH {
+    padding: 15px 10px;
+}
+
+.TT {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+    color: rgb(62, 61, 61);
+}
+
+.icon_tt {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    width: 250px;
+    margin: 0;
+}
+
+.BA {
+    padding: 8px 6px;
+}
+
+.content {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+#ctt {
+    padding-left: 1px;
+}
+
+.vanchuyen {
+    list-style: none;
+    display: flex;
+    padding-left: 5px;
+}
+
+.Vc {
+    padding: 0 6px;
+}
+
+.png {
+    padding-left: 10px;
+}
+
+.pt2 {
+    margin-bottom: 15px;
+}
+
+.pt2 a {
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+
+.pt2 a:hover {
+    color: red;
+}
+
+.submit {
+    display: flex;
+}
+
+.seam {
+    padding-top: 30px;
+}
+
+.part_2 {
+    background-color: rgb(117, 116, 116);
+}
