@@ -163,7 +163,7 @@
 }
 
 .anhnen {
-    width: 950px;
+    width: 980px;
     margin-left: 0px;
 }
 
@@ -276,7 +276,7 @@
 
 .anh_11 {
     overflow: hidden;
-    max-width: 350px;
+    max-width: 300px;
     max-height: 260px;
     margin: auto;
     transition: all 0.3s ease-in-out;

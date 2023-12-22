@@ -1,8 +1,12 @@
 .webtong {
     margin: auto;
+    overflow: auto !important;
 }
 
 .nav {
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
     display: flex;
     justify-content: space-around;
     background-color: rgb(135, 133, 133);
@@ -111,6 +115,10 @@
 
 #icon a {
     color: black;
+}
+
+.menu_con {
+    padding-top: 100px;
 }
 
 .item_con {
