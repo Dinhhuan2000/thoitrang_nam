@@ -372,8 +372,8 @@
 }
 
 .Back {
-    display: flex;
-    justify-content: center;
+    color: red;
+    font-size: larger;
 }
 
 .bt {

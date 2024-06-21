@@ -194,6 +194,7 @@
 
 .item7 a:hover {
     background-color: blueviolet;
+    text-decoration: underline;
 }
 
 #nav {
@@ -211,6 +212,7 @@
     transform: translateY(-20px);
     margin-left: 20px;
     margin-right: 2px;
+    color: red;
 }
 
 .icon1 {
@@ -284,21 +286,6 @@
 
 .anh_11:hover {
     transform: scale(1.1);
-}
-
-.button {
-    display: flex;
-    justify-content: center;
-}
-
-.bt {
-    margin: 10px;
-    border-radius: 4px;
-    transition: background-color 0.5s ease;
-}
-
-.bt:hover {
-    background-color: red;
 }
 
 .txt {
